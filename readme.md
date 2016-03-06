@@ -13,8 +13,8 @@ bundle install
 Run Test from the command line
 ==============================
 
+````
 PROJECT_TEMP_ROOT=$(grep -m1 PROJECT_TEMP_ROOT ${BUILD_SETTINGS} | cut -d= -f2 | xargs)
-
 
 xcodebuild -project ci-demo-app.xcodeproj \
   -scheme "ci-demo-app" \
@@ -25,3 +25,4 @@ xcodebuild -project ci-demo-app.xcodeproj \
 PROFDATA=$(find ${PROJECT_TEMP_ROOT} -name "Coverage.profdata")
 
 slather coverage -s ci-demo-app.xcodepro
+````
