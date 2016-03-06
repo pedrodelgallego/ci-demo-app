@@ -1,17 +1,19 @@
 CI Demo App
-================
+===========
 
--configuration Release \
 
 
 Dependencies
-============
+------------
 
+````
 sudo gem install xcpretty
 bundle install
+````
+
 
 Run Test from the command line
-==============================
+------------------------------
 
 ````
 PROJECT_TEMP_ROOT=$(grep -m1 PROJECT_TEMP_ROOT ${BUILD_SETTINGS} | cut -d= -f2 | xargs)
