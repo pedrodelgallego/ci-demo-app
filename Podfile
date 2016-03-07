@@ -1,19 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '8.0'
-pod "HockeySDK"
+use_frameworks!
 
-# # Uncomment this line to define a global platform for your project
-# # platform :ios, '8.0'
-# # Uncomment this line if you're using Swift
-# # use_frameworks!
 
-# target 'ci-demo-app' do
-# end
+target 'ci-demo-app' do
 
-# target 'ci-demo-appTests' do
+end
 
-# end
+target 'ci-demo-appTests' do
 
-# target 'ci-demo-appUITests' do
+end
 
-# end
+target 'ci-demo-appUITests' do
+
+end
 
