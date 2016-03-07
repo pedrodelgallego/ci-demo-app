@@ -7,6 +7,7 @@ Dependencies
 ````
 sudo gem install xcpretty
 bundle install
+pod install
 ````
 
 
