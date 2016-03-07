@@ -1,4 +1,7 @@
 build/
+test_reports/
+coverage/
+*.lock
 
 
 # Created by https://www.gitignore.io/api/xcode,emacs,osx,vim,intellij,appcode,intellij
