@@ -27,3 +27,17 @@ PROFDATA=$(find ${PROJECT_TEMP_ROOT} -name "Coverage.profdata")
 
 slather coverage -s ci-demo-app.xcodepro
 ````
+
+or
+
+````
+  xctool \
+    -reporter pretty \
+    -reporter junit:test_reports/results.xml \
+    -reporter plain:test_reports/xctool.log \
+    -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest' \
+    -sdk iphonesimulator \
+    -scheme "ci-demo-app" \
+    build build-tests run-tests
+
+````

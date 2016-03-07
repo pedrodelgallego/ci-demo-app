@@ -1,3 +1,20 @@
+machine:
+  xcode:
+    version: 7.2
+
+dependencies:
+  override:
+    - bundle install
 test:
-  post:
-    - bundle exec slather
+  override:
+    - xctool
+      -reporter pretty
+      -reporter junit:$CIRCLE_TEST_REPORTS/xcode/results.xml
+      -reporter plain:$CIRCLE_ARTIFACTS/xctool.log
+      CODE_SIGNING_REQUIRED=NO
+      CODE_SIGN_IDENTITY=
+      PROVISIONING_PROFILE=
+      -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'
+      -sdk iphonesimulator
+      -scheme "ci-demo-app"
+      build build-tests run-tests
