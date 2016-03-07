@@ -6,6 +6,7 @@
 //  Copyright © 2016 pedro. All rights reserved.
 //
 
+import HockeySDK
 import UIKit
 import CoreData
 
@@ -17,6 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        BITHockeyManager.sharedHockeyManager().configureWithIdentifier("8508cf6164be428e9e626ed9032e510f")
+        // Do some additional configuration if needed here
+        BITHockeyManager.sharedHockeyManager().startManager()
+        BITHockeyManager.sharedHockeyManager().authenticator.authenticateInstallation()
+
+        
         return true
     }
 

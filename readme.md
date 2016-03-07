@@ -1,8 +1,6 @@
 CI Demo App
 ===========
 
-
-
 Dependencies
 ------------
 
