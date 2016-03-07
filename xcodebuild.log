@@ -1,0 +1,69 @@
+Build settings from command line:
+    SDKROOT = iphonesimulator9.2
+
+=== BUILD TARGET ci-demo-app OF PROJECT ci-demo-app WITH CONFIGURATION Debug ===
+
+Check dependencies
+warning: no rule to process file '/Users/pedro/code/mck-demo/ci-demo-app/readme.md' of type net.daringfireball.markdown for architecture x86_64
+
+=== BUILD TARGET ci-demo-appUITests OF PROJECT ci-demo-app WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET ci-demo-appTests OF PROJECT ci-demo-app WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+** TEST SUCCEEDED **
+
+14:53:06.389 ci-demo-app[49929:2566170] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+14:53:06.394 ci-demo-app[49929:2566170] _IDE_startExecutingTestPlanWithProtocolVersion:16
+Test Suite 'All tests' started at 2016-03-06 14:53:06.435
+Test Suite 'ci-demo-appTests.xctest' started at 2016-03-06 14:53:06.436
+Test Suite 'ci_demo_appTests' started at 2016-03-06 14:53:06.437
+Test Case '-[ci_demo_appTests.ci_demo_appTests testExample]' started.
+Test Case '-[ci_demo_appTests.ci_demo_appTests testExample]' passed (0.001 seconds).
+Test Case '-[ci_demo_appTests.ci_demo_appTests testPerformanceExample]' started.
+/Users/pedro/code/mck-demo/ci-demo-app/ci-demo-appTests/ci_demo_appTests.swift:33: Test Case '-[ci_demo_appTests.ci_demo_appTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 137.702%, values: [0.000003, 0.000001, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[ci_demo_appTests.ci_demo_appTests testPerformanceExample]' passed (0.263 seconds).
+Test Suite 'ci_demo_appTests' passed at 2016-03-06 14:53:06.702.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.264 (0.265) seconds
+Test Suite 'ci-demo-appTests.xctest' passed at 2016-03-06 14:53:06.703.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.264 (0.266) seconds
+2016-03-06 14:53:08.550 XCTRunner[49930:2566207] Running tests...
+2016-03-06 14:53:08.552 XCTRunner[49930:2566207] Looking for test bundles in /Users/pedro/Library/Developer/CoreSimulator/Devices/9A3779A4-5A8F-406F-BCC6-CD183AD4A8EA/data/Containers/Bundle/Application/99945291-5F91-4B06-A98D-0C196104551D/ci-demo-appUITests-Runner.app/PlugIns
+2016-03-06 14:53:08.553 XCTRunner[49930:2566207] Found test bundle at /Users/pedro/Library/Developer/CoreSimulator/Devices/9A3779A4-5A8F-406F-BCC6-CD183AD4A8EA/data/Containers/Bundle/Application/99945291-5F91-4B06-A98D-0C196104551D/ci-demo-appUITests-Runner.app/PlugIns/ci-demo-appUITests.xctest
+2016-03-06 14:53:08.554 XCTRunner[49930:2566207] Looking for configurations in /Users/pedro/Library/Developer/CoreSimulator/Devices/9A3779A4-5A8F-406F-BCC6-CD183AD4A8EA/data/Containers/Bundle/Application/99945291-5F91-4B06-A98D-0C196104551D/ci-demo-appUITests-Runner.app/PlugIns/ci-demo-appUITests.xctest
+2016-03-06 14:53:08.556 XCTRunner[49930:2566207] Found configuration <XCTestConfiguration: 0x7fcda050ab50>
+	                  testBundleURL:file:///Users/pedro/Library/Developer/Xcode/DerivedData/ci-demo-app-bafphckoferoevccgiishowdesyj/Build/Intermediates/CodeCoverage/ci-demo-app/Products/Debug-iphonesimulator/ci-demo-appUITests-Runner.app/PlugIns/ci-demo-appUITests.xctest/
+	              productModuleName:ci_demo_appUITests
+	                    testsToSkip:(null)
+	                     testsToRun:(null)
+	             reportResultsToIDE:YES
+	              sessionIdentifier:<__NSConcreteUUID 0x7fcda050a5e0> BB372DAB-7D51-4607-9B68-50DB73BA7A61
+	     pathToXcodeReportingSocket:(null)
+	      disablePerformanceMetrics:no
+	treatMissingBaselinesAsFailures:no
+	                baselineFileURL:(null)
+	          targetApplicationPath:/Users/pedro/Library/Developer/Xcode/DerivedData/ci-demo-app-bafphckoferoevccgiishowdesyj/Build/Intermediates/CodeCoverage/ci-demo-app/Products/Debug-iphonesimulator/ci-demo-app.app
+	      targetApplicationBundleID:cingo.ci-demo-app
+	               reportActivities:YES
+	       testsMustRunOnMainThread:YES
+14:53:08.745 XCTRunner[49930:2566210] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+14:53:08.749 XCTRunner[49930:2566210] _IDE_startExecutingTestPlanWithProtocolVersion:16
+Test Suite 'All tests' started at 2016-03-06 14:53:08.799
+Test Suite 'ci-demo-appUITests.xctest' started at 2016-03-06 14:53:08.800
+Test Suite 'ci_demo_appUITests' started at 2016-03-06 14:53:08.802
+Test Case '-[ci_demo_appUITests.ci_demo_appUITests testExample]' started.
+    t =     0.00s     Start Test
+    t =     0.00s     Set Up
+2016-03-06 14:53:09.139 XCTRunner[49930:2566207] Continuing to run tests in the background with task ID 1
+    t =     0.95s         Launch cingo.ci-demo-app
+    t =     1.04s             Waiting for accessibility to load
+    t =     2.45s             Wait for app to idle
+    t =     2.87s     Tear Down
+Test Case '-[ci_demo_appUITests.ci_demo_appUITests testExample]' passed (2.874 seconds).
+Test Suite 'ci_demo_appUITests' passed at 2016-03-06 14:53:11.677.
+	 Executed 1 test, with 0 failures (0 unexpected) in 2.874 (2.875) seconds
+Test Suite 'ci-demo-appUITests.xctest' passed at 2016-03-06 14:53:11.678.
+	 Executed 1 test, with 0 failures (0 unexpected) in 2.874 (2.878) seconds

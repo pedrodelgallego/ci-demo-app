@@ -1,0 +1,7 @@
+coverage_service: cobertura_xml
+xcodeproj: ci-demo-app.xcodeproj
+source_directory: path/to/sources/to/include
+output_directory: test_reports/
+ignore:
+  - ExamplePodCode/*
+  - ProjectTestsGroup/*
