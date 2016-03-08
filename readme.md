@@ -38,6 +38,7 @@ or
     -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest' \
     -sdk iphonesimulator \
     -scheme "ci-demo-app" \
+    -workspace ci-demo-app.xcworkspace \
     build build-tests run-tests
-
 ````
+    

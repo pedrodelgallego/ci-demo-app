@@ -4,6 +4,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 pod 'Alamofire',  "~> 3.1"
+pod 'HockeySDK'
 pod "SwiftyJSON", "~> 2.3"
 
 # target 'ci-demo-app' do

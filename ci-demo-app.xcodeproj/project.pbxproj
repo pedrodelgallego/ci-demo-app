@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF7F16C800188DE5651F7A81 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABBFD571BD1A6E2AC83D215 /* Pods.framework */; };
+		D910AC1DBB908F3CFD00D5A3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BB0CC4DC8B6657A0D84FCE /* Pods.framework */; };
 		EB7678281C8CACC8004987A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7678271C8CACC8004987A7 /* AppDelegate.swift */; };
 		EB76782A1C8CACC8004987A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7678291C8CACC8004987A7 /* ViewController.swift */; };
 		EB76782D1C8CACC8004987A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB76782B1C8CACC8004987A7 /* Main.storyboard */; };
@@ -17,8 +17,6 @@
 		EB7678401C8CACC8004987A7 /* ci_demo_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76783F1C8CACC8004987A7 /* ci_demo_appTests.swift */; };
 		EB76784B1C8CACC9004987A7 /* ci_demo_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76784A1C8CACC9004987A7 /* ci_demo_appUITests.swift */; };
 		EB7678591C8CAD79004987A7 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = EB7678581C8CAD79004987A7 /* readme.md */; };
-		EB7678A11C8D0269004987A7 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB76789E1C8D0269004987A7 /* HockeySDK.framework */; };
-		EB7678A21C8D0269004987A7 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB7678A01C8D0269004987A7 /* HockeySDKResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19C18C70DD9A3391BB6845F2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		7ABBFD571BD1A6E2AC83D215 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D43B8461B8EB37DDAFBE1844 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		36BB0CC4DC8B6657A0D84FCE /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFBD8A0574AF8952D2CC40A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C20534AF9C0959E42F402C53 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EB7678241C8CACC8004987A7 /* ci-demo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ci-demo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7678271C8CACC8004987A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7678291C8CACC8004987A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,8 +55,6 @@
 		EB76784A1C8CACC9004987A7 /* ci_demo_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ci_demo_appUITests.swift; sourceTree = "<group>"; };
 		EB76784C1C8CACC9004987A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB7678581C8CAD79004987A7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
-		EB76789E1C8D0269004987A7 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
-		EB7678A01C8D0269004987A7 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB7678A11C8D0269004987A7 /* HockeySDK.framework in Frameworks */,
-				DF7F16C800188DE5651F7A81 /* Pods.framework in Frameworks */,
+				D910AC1DBB908F3CFD00D5A3 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,25 +83,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32C2B017A960FC016D4EC93F /* Pods */ = {
+		6C63D3174DB0FC197102339C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D43B8461B8EB37DDAFBE1844 /* Pods.debug.xcconfig */,
-				19C18C70DD9A3391BB6845F2 /* Pods.release.xcconfig */,
+				BEFBD8A0574AF8952D2CC40A /* Pods.debug.xcconfig */,
+				C20534AF9C0959E42F402C53 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9559D1BDFEEDF6419E8F50CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36BB0CC4DC8B6657A0D84FCE /* Pods.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EB76781B1C8CACC8004987A7 = {
 			isa = PBXGroup;
 			children = (
-				EB7678961C8D0209004987A7 /* Frameworks */,
 				EB7678581C8CAD79004987A7 /* readme.md */,
 				EB7678261C8CACC8004987A7 /* ci-demo-app */,
 				EB76783E1C8CACC8004987A7 /* ci-demo-appTests */,
 				EB7678491C8CACC9004987A7 /* ci-demo-appUITests */,
 				EB7678251C8CACC8004987A7 /* Products */,
-				32C2B017A960FC016D4EC93F /* Pods */,
+				6C63D3174DB0FC197102339C /* Pods */,
+				9559D1BDFEEDF6419E8F50CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,33 +155,6 @@
 			path = "ci-demo-appUITests";
 			sourceTree = "<group>";
 		};
-		EB7678961C8D0209004987A7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EB76789D1C8D0269004987A7 /* HockeySDK.embeddedframework */,
-				7ABBFD571BD1A6E2AC83D215 /* Pods.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EB76789D1C8D0269004987A7 /* HockeySDK.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				EB76789E1C8D0269004987A7 /* HockeySDK.framework */,
-				EB76789F1C8D0269004987A7 /* Resources */,
-			);
-			name = HockeySDK.embeddedframework;
-			path = "HockeySDK-iOS/HockeySDK.embeddedframework";
-			sourceTree = "<group>";
-		};
-		EB76789F1C8D0269004987A7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				EB7678A01C8D0269004987A7 /* HockeySDKResources.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,13 +162,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB76784F1C8CACC9004987A7 /* Build configuration list for PBXNativeTarget "ci-demo-app" */;
 			buildPhases = (
-				5026444920E217637BFA8B0C /* Check Pods Manifest.lock */,
+				11DB24C7C35A883880A26BBF /* Check Pods Manifest.lock */,
 				EB7678201C8CACC8004987A7 /* Sources */,
 				EB7678211C8CACC8004987A7 /* Frameworks */,
 				EB7678221C8CACC8004987A7 /* Resources */,
 				EB7678951C8D01F4004987A7 /* ShellScript */,
-				68C415AFF9721A0D32A8D0CE /* Embed Pods Frameworks */,
-				584F7CEB6E2D547DFC450D23 /* Copy Pods Resources */,
+				0937D08BCB27BD40AF34FDDB /* Embed Pods Frameworks */,
+				FA4EFB943DE16FA077F63003 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,7 +265,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB7678351C8CACC8004987A7 /* LaunchScreen.storyboard in Resources */,
-				EB7678A21C8D0269004987A7 /* HockeySDKResources.bundle in Resources */,
 				EB7678321C8CACC8004987A7 /* Assets.xcassets in Resources */,
 				EB76782D1C8CACC8004987A7 /* Main.storyboard in Resources */,
 			);
@@ -312,37 +287,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5026444920E217637BFA8B0C /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		584F7CEB6E2D547DFC450D23 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		68C415AFF9721A0D32A8D0CE /* Embed Pods Frameworks */ = {
+		0937D08BCB27BD40AF34FDDB /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,6 +302,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		11DB24C7C35A883880A26BBF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		EB7678951C8D01F4004987A7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,6 +329,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n  \"$FILE\"\nfi";
+		};
+		FA4EFB943DE16FA077F63003 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -520,13 +495,16 @@
 		};
 		EB7678501C8CACC9004987A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D43B8461B8EB37DDAFBE1844 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = BEFBD8A0574AF8952D2CC40A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+					"${PODS_ROOT}/Headers/Reachability",
+					"$(PODS_ROOT)/",
+					"$(PODS_ROOT)/Parse",
 				);
 				INFOPLIST_FILE = "ci-demo-app/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -540,13 +518,16 @@
 		};
 		EB7678511C8CACC9004987A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19C18C70DD9A3391BB6845F2 /* Pods.release.xcconfig */;
+			baseConfigurationReference = C20534AF9C0959E42F402C53 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+					"${PODS_ROOT}/Headers/Reachability",
+					"$(PODS_ROOT)/",
+					"$(PODS_ROOT)/Parse",
 				);
 				INFOPLIST_FILE = "ci-demo-app/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

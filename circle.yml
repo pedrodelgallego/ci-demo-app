@@ -17,5 +17,6 @@ test:
       PROVISIONING_PROFILE=
       -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'
       -sdk iphonesimulator
+      -workspace ci-demo-app.xcworkspace
       -scheme "ci-demo-app"
       build build-tests run-tests
