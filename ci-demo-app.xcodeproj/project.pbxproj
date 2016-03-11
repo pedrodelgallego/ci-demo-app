@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6CC99C448602CB2019BE283 /* Pods_ci_demo_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F130D073DB070797B008862 /* Pods_ci_demo_appTests.framework */; };
 		D910AC1DBB908F3CFD00D5A3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BB0CC4DC8B6657A0D84FCE /* Pods.framework */; };
+		EB20616E1C92751500EC10CA /* PaymentsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB20616D1C92751500EC10CA /* PaymentsApi.swift */; };
+		EB20616F1C92751500EC10CA /* PaymentsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB20616D1C92751500EC10CA /* PaymentsApi.swift */; };
+		EB2DBEAF1C92796E00BA2F03 /* PaymentsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2DBEAE1C92796E00BA2F03 /* PaymentsEndpoint.swift */; };
+		EB2DBEB01C92796E00BA2F03 /* PaymentsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2DBEAE1C92796E00BA2F03 /* PaymentsEndpoint.swift */; };
+		EB2DBEB41C927A6900BA2F03 /* PaymentsEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2DBEB21C927A6900BA2F03 /* PaymentsEndpointTests.swift */; };
 		EB7678281C8CACC8004987A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7678271C8CACC8004987A7 /* AppDelegate.swift */; };
 		EB76782A1C8CACC8004987A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7678291C8CACC8004987A7 /* ViewController.swift */; };
 		EB76782D1C8CACC8004987A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB76782B1C8CACC8004987A7 /* Main.storyboard */; };
@@ -17,6 +23,10 @@
 		EB7678401C8CACC8004987A7 /* ci_demo_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76783F1C8CACC8004987A7 /* ci_demo_appTests.swift */; };
 		EB76784B1C8CACC9004987A7 /* ci_demo_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76784A1C8CACC9004987A7 /* ci_demo_appUITests.swift */; };
 		EB7678591C8CAD79004987A7 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = EB7678581C8CAD79004987A7 /* readme.md */; };
+		EBEA9D1C1C8E9CD300D5625B /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEA9D1B1C8E9CD300D5625B /* Customer.swift */; };
+		EBEA9D1F1C8FE74200D5625B /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEA9D1E1C8FE74200D5625B /* Payment.swift */; };
+		EBEA9D201C8FE74200D5625B /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEA9D1E1C8FE74200D5625B /* Payment.swift */; };
+		EBEA9D211C8FE74200D5625B /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEA9D1E1C8FE74200D5625B /* Payment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F130D073DB070797B008862 /* Pods_ci_demo_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ci_demo_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BB0CC4DC8B6657A0D84FCE /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6370AD1242C6DC3D497B5A59 /* Pods-ci-demo-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ci-demo-appTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ci-demo-appTests/Pods-ci-demo-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91BA8E4D05CB5C88E53BFA6F /* Pods-ci-demo-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ci-demo-appTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ci-demo-appTests/Pods-ci-demo-appTests.release.xcconfig"; sourceTree = "<group>"; };
 		BEFBD8A0574AF8952D2CC40A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C20534AF9C0959E42F402C53 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EB20616D1C92751500EC10CA /* PaymentsApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsApi.swift; sourceTree = "<group>"; };
+		EB2DBEAE1C92796E00BA2F03 /* PaymentsEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsEndpoint.swift; sourceTree = "<group>"; };
+		EB2DBEB21C927A6900BA2F03 /* PaymentsEndpointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsEndpointTests.swift; sourceTree = "<group>"; };
 		EB7678241C8CACC8004987A7 /* ci-demo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ci-demo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7678271C8CACC8004987A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7678291C8CACC8004987A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +71,8 @@
 		EB76784A1C8CACC9004987A7 /* ci_demo_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ci_demo_appUITests.swift; sourceTree = "<group>"; };
 		EB76784C1C8CACC9004987A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB7678581C8CAD79004987A7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		EBEA9D1B1C8E9CD300D5625B /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		EBEA9D1E1C8FE74200D5625B /* Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6CC99C448602CB2019BE283 /* Pods_ci_demo_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +107,8 @@
 			children = (
 				BEFBD8A0574AF8952D2CC40A /* Pods.debug.xcconfig */,
 				C20534AF9C0959E42F402C53 /* Pods.release.xcconfig */,
+				6370AD1242C6DC3D497B5A59 /* Pods-ci-demo-appTests.debug.xcconfig */,
+				91BA8E4D05CB5C88E53BFA6F /* Pods-ci-demo-appTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -96,8 +117,17 @@
 			isa = PBXGroup;
 			children = (
 				36BB0CC4DC8B6657A0D84FCE /* Pods.framework */,
+				2F130D073DB070797B008862 /* Pods_ci_demo_appTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB2DBEB11C927A4E00BA2F03 /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				EB2DBEB21C927A6900BA2F03 /* PaymentsEndpointTests.swift */,
+			);
+			name = Payments;
 			sourceTree = "<group>";
 		};
 		EB76781B1C8CACC8004987A7 = {
@@ -126,6 +156,8 @@
 		EB7678261C8CACC8004987A7 /* ci-demo-app */ = {
 			isa = PBXGroup;
 			children = (
+				EBEA9D1D1C8FE72900D5625B /* Payments */,
+				EBEA9D1A1C8E9CC200D5625B /* Customer */,
 				EB7678271C8CACC8004987A7 /* AppDelegate.swift */,
 				EB7678291C8CACC8004987A7 /* ViewController.swift */,
 				EB76782B1C8CACC8004987A7 /* Main.storyboard */,
@@ -140,6 +172,7 @@
 		EB76783E1C8CACC8004987A7 /* ci-demo-appTests */ = {
 			isa = PBXGroup;
 			children = (
+				EB2DBEB11C927A4E00BA2F03 /* Payments */,
 				EB76783F1C8CACC8004987A7 /* ci_demo_appTests.swift */,
 				EB7678411C8CACC8004987A7 /* Info.plist */,
 			);
@@ -153,6 +186,24 @@
 				EB76784C1C8CACC9004987A7 /* Info.plist */,
 			);
 			path = "ci-demo-appUITests";
+			sourceTree = "<group>";
+		};
+		EBEA9D1A1C8E9CC200D5625B /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA9D1B1C8E9CD300D5625B /* Customer.swift */,
+			);
+			name = Customer;
+			sourceTree = "<group>";
+		};
+		EBEA9D1D1C8FE72900D5625B /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA9D1E1C8FE74200D5625B /* Payment.swift */,
+				EB20616D1C92751500EC10CA /* PaymentsApi.swift */,
+				EB2DBEAE1C92796E00BA2F03 /* PaymentsEndpoint.swift */,
+			);
+			name = Payments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7678521C8CACC9004987A7 /* Build configuration list for PBXNativeTarget "ci-demo-appTests" */;
 			buildPhases = (
+				593DA9217D0D516BD7E0AC11 /* Check Pods Manifest.lock */,
 				EB7678371C8CACC8004987A7 /* Sources */,
 				EB7678381C8CACC8004987A7 /* Frameworks */,
 				EB7678391C8CACC8004987A7 /* Resources */,
+				16BB84C760793CC263070A33 /* Embed Pods Frameworks */,
+				44FB344F34C5483E11CBEDD0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,6 +371,51 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		16BB84C760793CC263070A33 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ci-demo-appTests/Pods-ci-demo-appTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44FB344F34C5483E11CBEDD0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ci-demo-appTests/Pods-ci-demo-appTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		593DA9217D0D516BD7E0AC11 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		EB7678951C8D01F4004987A7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,7 +452,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB76782A1C8CACC8004987A7 /* ViewController.swift in Sources */,
+				EBEA9D1F1C8FE74200D5625B /* Payment.swift in Sources */,
+				EBEA9D1C1C8E9CD300D5625B /* Customer.swift in Sources */,
+				EB2DBEAF1C92796E00BA2F03 /* PaymentsEndpoint.swift in Sources */,
 				EB7678281C8CACC8004987A7 /* AppDelegate.swift in Sources */,
+				EB20616E1C92751500EC10CA /* PaymentsApi.swift in Sources */,
 				EB7678591C8CAD79004987A7 /* readme.md in Sources */,
 				EB7678301C8CACC8004987A7 /* ci_demo_app.xcdatamodeld in Sources */,
 			);
@@ -364,6 +467,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB7678401C8CACC8004987A7 /* ci_demo_appTests.swift in Sources */,
+				EBEA9D201C8FE74200D5625B /* Payment.swift in Sources */,
+				EB20616F1C92751500EC10CA /* PaymentsApi.swift in Sources */,
+				EB2DBEB01C92796E00BA2F03 /* PaymentsEndpoint.swift in Sources */,
+				EB2DBEB41C927A6900BA2F03 /* PaymentsEndpointTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB76784B1C8CACC9004987A7 /* ci_demo_appUITests.swift in Sources */,
+				EBEA9D211C8FE74200D5625B /* Payment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +649,7 @@
 		};
 		EB7678531C8CACC9004987A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6370AD1242C6DC3D497B5A59 /* Pods-ci-demo-appTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "ci-demo-appTests/Info.plist";
@@ -553,6 +662,7 @@
 		};
 		EB7678541C8CACC9004987A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BA8E4D05CB5C88E53BFA6F /* Pods-ci-demo-appTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "ci-demo-appTests/Info.plist";

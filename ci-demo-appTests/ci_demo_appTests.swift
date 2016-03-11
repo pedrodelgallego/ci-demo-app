@@ -1,11 +1,3 @@
-//
-//  ci_demo_appTests.swift
-//  ci-demo-appTests
-//
-//  Created by pedro on 06/03/16.
-//  Copyright © 2016 pedro. All rights reserved.
-//
-
 import XCTest
 @testable import ci_demo_app
 
@@ -22,8 +14,6 @@ class ci_demo_appTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {

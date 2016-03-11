@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  ci-demo-app
-//
-//  Created by pedro on 06/03/16.
-//  Copyright © 2016 pedro. All rights reserved.
-//
-
 import HockeySDK
 import UIKit
 import CoreData
@@ -23,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Do some additional configuration if needed here
         BITHockeyManager.sharedHockeyManager().startManager()
         BITHockeyManager.sharedHockeyManager().authenticator.authenticateInstallation()
-
         
         return true
     }
